@@ -1,0 +1,16 @@
+[2026-04-18T20:44:43Z] === ENRICH ITERATION 1 START | repo=webpack-contrib/file-loader sha=c2aded7c ===
+[2026-04-18T20:44:43Z] [iter=1] PHASE START: enrich repo=webpack-contrib/file-loader sha=c2aded7c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c2aded7c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c2aded7c33dae128cbbfca8a23b120a2be4843b2.nq.gz
+[2026-04-18T20:44:56Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-18T20:44:56Z] [iter=1] AST store loaded triples=34497 load_secs=0 mem_mb=135 MB
+[2026-04-18T20:44:56Z] [iter=1] Step 2: Finding LSP targets mem_mb=135 MB
+[2026-04-18T20:44:56Z] [iter=1] LSP targets found call_sites=551 imports=28 extends=0 implements=0 secs=0
+[2026-04-18T20:44:56Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=135 MB
+[2026-04-18T20:44:56Z] [iter=1] Position index built positions=2316 nodes_with_types=2921 secs=0 mem_mb=135 MB
+[2026-04-18T20:44:56Z] [iter=1] Step 3: Starting LSP resolution mem_mb=135 MB already_completed_types=[] already_completed_files=0
+[2026-04-18T20:44:56Z] [iter=1] Resolving target type target_type=call_site count=551
+[2026-04-18T20:45:01Z] [iter=1] Target type resolved target_type=call_site resolved=84 errors=168 secs=5 mem_mb=135 MB
+[2026-04-18T20:45:01Z] [iter=1] Resolving target type target_type=import_statement count=28
+[2026-04-18T20:45:03Z] [iter=1] Target type resolved target_type=import_statement resolved=17 errors=0 secs=2 mem_mb=135 MB
+[2026-04-18T20:45:06Z] [iter=1] Step 5: Writing final enrichment file triples=3045
+[2026-04-18T20:45:06Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c2aded7c33dae128cbbfca8a23b120a2be4843b2.nq.gz size_kb=43
+[2026-04-18T20:45:06Z] [iter=1] PHASE END: enrich elapsed_s=23 elapsed_min=0.4 total_triples=3045
